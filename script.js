@@ -5,18 +5,18 @@ let reset=document.getElementById("reset-btn");
 let i=0;
 increase.addEventListener("click",function(){
     i++;
-    number.innerHTML=i;
+    number.textContent=i;
     // console.log("hello");
 })
 decrease.addEventListener("click",function(){
     if(i>0){
         i--;
-        number.innerHTML=i;
+        number.textContent=i;
         // console.log("hello priyanshi");
     }
 })
 reset.addEventListener("click",function(){
     i=0;
-    number.innerHTML=0;
+    number.textContent=0;
     // console.log("hello world");
 })
